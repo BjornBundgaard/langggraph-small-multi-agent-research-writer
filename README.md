@@ -1,7 +1,7 @@
 # LangGraph Multiagent System
 
 ## Overview
-This project is an implementation of a multi-agent system built with LangGraph and LangChain. The system consists of several specialized agents that collaborate to generate comprehensive research reports based on user input, specifically tailored to UCN's "Export and Technology" program.
+This project is an implementation of a multi-agent system built with LangGraph and LangChain. The system consists of several specialized agents that collaborate to generate comprehensive research reports based on user input.
 
 ## System Architecture
 The system consists of the following agents working together in an orchestrated workflow:
