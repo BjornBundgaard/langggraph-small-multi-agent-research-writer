@@ -1,0 +1,22 @@
+{
+  "name": "report-agent",
+  "description": "Multi-agent report generation system",
+  "package": {
+    "path": "backend.graph",
+    "variable": "app"
+  },
+  "dependencies": ["./backend"],
+  "graphs": {
+    "report-agent": "backend.graph:app"
+  },
+  "env": ".env",
+  "build": {
+    "includeDependencies": true
+  },
+  "deployEnv": {
+    "env": {
+      "OPENAI_API_KEY": "${OPENAI_API_KEY}",
+      "TAVILY_API_KEY": "${TAVILY_API_KEY}"
+    }
+  }
+} 
